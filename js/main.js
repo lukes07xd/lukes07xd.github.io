@@ -28,3 +28,8 @@ document.addEventListener('DOMContentLoaded', function() {
   document.getElementById("years-of-coding").innerText = y + " years"
   document.getElementById("currentyr").innerText = yy
 })
+
+function reloadbtn() {
+  scroll(0,0)
+  location.reload(true);
+}
