@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>-</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="parent">
+        <div class="calc-area">
+          <input type="number" id="file-size" step="0.1" placeholder="File size (GB)" onfocus="rerun('GB')" >
+          <input id="down-speed" type="number" step="0.1" placeholder="Internet speed (Mb/s)" onfocus="rerun('Mb')" onkeypress="enter_key(event)">
+          <button onclick="dwn_time()">Calculate</button>
+        </div>
+        <div id="speed">
+          Your file will be downloaded in:
+        </div>
+      </div>
+</body>
+<script src="main.js"></script>
+</html>
