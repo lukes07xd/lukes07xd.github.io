@@ -14,7 +14,7 @@ window.addEventListener('scroll', function() {
 })
 
 document.addEventListener('DOMContentLoaded', function() {
-  // Load the time since I coded
+  // Load the time since I've started coding
   var years_since = new Date("2018-08-20").getTime()
   var today = new Date().getTime()
 
