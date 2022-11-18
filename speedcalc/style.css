@@ -21,14 +21,14 @@
     padding: 60px;
     margin-top: auto;
     left: 50%;
-    top: 50%;
+    top: 35%;
     transform: translate(-50%, -50%);
     box-shadow: 0 8px 20px 2px rgba(0, 0, 0, 0.3);
     /*   background:#62bcfa; */
     background: #0b3c5d;
     border-radius: 5px;
-    max-width: 350px;
-    min-width: 325px;
+    max-width: 300px;
+    min-width: 295px;
   }
   
   input {
@@ -76,7 +76,7 @@
     border-radius: 3px;
     box-shadow: 0 8px 20px 2px rgba(0, 0, 0, 0.3);
     left: 50%;
-    top: 50%;
+    top: 35%;
     transform: translate(-50%, 500%);
     text-align: center;
   }
