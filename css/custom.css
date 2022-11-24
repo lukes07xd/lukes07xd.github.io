@@ -1,14 +1,14 @@
 /* Fonts */
 @font-face {
   font-family: "runescape";
-  src: url("/static/fonts/runescape.ttf") format("truetype");
+  src: url("/fonts/runescape.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "snowstorm";
-  src: url("/static/fonts/snowstorm_bold.ttf") format("truetype");
+  src: url("/fonts/snowstorm_bold.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }

@@ -33,3 +33,7 @@ function reloadbtn() {
   scroll(0,0)
   location.reload(true);
 }
+
+function testbtn() {
+  alert("JS je připojený k HTML")
+}
