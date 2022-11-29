@@ -6,7 +6,6 @@ function scroll_to(get_id) {
 }
 
 window.addEventListener('scroll', function() {
-  // Hide arrow button when scrolling down the page
   var scrollPosition = window.scrollY
   var logoContainer = document.getElementsByClassName('arrow')[0]
   if (scrollPosition >= 100) logoContainer.classList.add('arrow--scrolled')
@@ -14,7 +13,6 @@ window.addEventListener('scroll', function() {
 })
 
 document.addEventListener('DOMContentLoaded', function() {
-  // Load the time since I've started coding
   var years_since = new Date("2018-08-20").getTime()
   var today = new Date().getTime()
 
@@ -31,9 +29,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
 function reloadbtn() {
   scroll(0,0)
-  location.reload(true);
+  location.reload(true)
 }
 
 function testbtn() {
-  alert("JS je připojený k HTML")
+  alert("JavaScript is connected to HTML and is working.")
 }
