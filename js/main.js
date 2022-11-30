@@ -33,5 +33,5 @@ function reloadbtn() {
 }
 
 function testbtn() {
-  alert("JavaScript is connected to HTML and is working.")
+  alert("JavaScript was successfully connected to your browser and is fully working!")
 }
