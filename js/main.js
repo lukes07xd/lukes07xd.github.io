@@ -33,5 +33,5 @@ function reloadbtn() {
 }
 
 function testbtn() {
-  alert("JavaScript was successfully connected to your browser and is fully working!")
+  alert("JavaScript is working! The file this has tested is main.js")
 }
