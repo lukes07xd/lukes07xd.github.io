@@ -32,6 +32,6 @@ function reloadbtn() {
   location.reload(true)
 }
 
-function testbtn() {
+function testjs() {
   alert("JavaScript is working! The file this has tested is main.js")
 }
