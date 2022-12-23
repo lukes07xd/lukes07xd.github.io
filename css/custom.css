@@ -1,4 +1,8 @@
-/* Fonts */
+/*
+IT IS STRICTLY FORBIDDEN TO COPY THIS CODE AT ANY POINT OF TIME
+AUTHOR: Filip Lukeš 
+YOU CAN FIND MY CONTACT AT: https://lukes07xd.github.io
+*/
 @font-face {
   font-family: "runescape";
   src: url("/fonts/runescape.ttf") format("truetype");
@@ -21,7 +25,6 @@
 
 .dropshadow-small { text-shadow: rgba(0, 0, 0, .5) .075em .075em 0; }
 
-/* Change a bit default ModestaCSS values */
 .fullscreen h1.title { margin-bottom: 0; letter-spacing: 2px; }
 .box-container { margin-bottom: .5rem; }
 .box-container p {
@@ -30,12 +33,10 @@
 }
 
 
-/* Some custom stuff */
 .arrow svg { fill: #fff; }
 .info-button { cursor: pointer; }
 .info-container { padding-left: 2.5em; }
 
-/* Avatar */
 .avatar-container {
   position: relative;
 }
@@ -68,10 +69,8 @@
 .title { font-size: 3em; margin: 0; }
 .subtitle { font-size: 1.5em; margin-bottom: 0; }
 
-/* Link bullshit */
 a { color: #1eaedb; }
 
-/* Custom Modesta emojis */
 .czech {
   background-image: url('../images/cz.svg');
   vertical-align: -.3em;
@@ -132,11 +131,6 @@ a { color: #1eaedb; }
   border: 3px solid #303030;
   margin-top: .5em !important;
   position: relative;
-  /*
-    NOTE: Might need, idk, keeping just in case
-    flex-basis: 48% !important;
-    max-width: 48% !important;
-  */
 
   background-size: 20px 20px;
   background-position: 0 0, 30px 30px;
@@ -162,7 +156,6 @@ a { color: #1eaedb; }
   text-shadow: 0 0 5px #000;
 }
 
-/* Responsive */
 @media (max-width: 800px) {
   .flex-grid .colour .name, .flex-grid .colour .hex { font-size: 16px; }
 }
@@ -175,7 +168,6 @@ a { color: #1eaedb; }
 }
 
 
-/* R e s p o n s i v e */
 @media (max-width: 550px) {
   .info-container { padding-left: 0; }
   .title { font-size: 2em; }

@@ -1,3 +1,8 @@
+/*
+IT IS STRICTLY FORBIDDEN TO COPY THIS CODE AT ANY POINT OF TIME
+AUTHOR: Filip Lukeš 
+YOU CAN FIND MY CONTACT AT: https://lukes07xd.github.io
+*/
 window.addEventListener("load", () => {
     clock();
     function clock() {
