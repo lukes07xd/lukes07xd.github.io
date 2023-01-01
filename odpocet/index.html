@@ -1,0 +1,70 @@
+<!--
+(CS)
+Je přísně zakázáno kopírovat tento kód bez svolení autora!
+Kontakt na autora naleznete na: https://lukes07.github.io
+
+(EN)
+It is strictly prohibited to copy this code without permission from It's author!
+You can find the author's contact information on: https://lukes07.github.io
+-->
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+p {
+  text-align: center;
+  font-size: 60px;
+  margin-top: 0px;
+}
+
+h1{
+  text-align: center;
+  font-size: 60px;
+  margin-top: 0px;
+}
+</style>
+</head>
+<body>
+    <p id="obsahStranky"></p>
+
+<script>
+/*
+  (CS)
+  Je přísně zakázáno kopírovat tento kód bez svolení autora!
+  Kontakt na autora naleznete na: https://lukes07.github.io
+  
+  (EN)
+  It is strictly prohibited to copy this code without permission from It's author!
+  You can find the author's contact information on: https://lukes07.github.io
+*/
+var countDownDate = new Date("Jan 1, 2024 00:00:00").getTime();
+//Reference: var countDownDate = new Date("Jan 1, 2024 00:00:00").getTime();
+/*
+Validní měsíce: Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec
+*/
+
+var x = setInterval(function() {
+
+  var now = new Date().getTime();
+    
+  var distance = countDownDate - now;
+    
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+  document.getElementById("obsahStranky").innerHTML = "<h1>Odpočet Času Do Nového Roku:</h1>\n" + days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+    
+  if (distance < 0) {
+    clearInterval(x);
+    document.body.innerHTML = "<h1>Šťastný Nový Rok</h1>";
+  }
+}, 1);
+</script>
+
+</body>
+</html>
