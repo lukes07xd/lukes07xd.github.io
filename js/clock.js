@@ -37,6 +37,7 @@ window.addEventListener("load", () => {
 
         const date = monthList[month] + " " + day + ", " + year;
         const time = hour + ":" + minute + ":" + second;
+        document.getElementById("currentyr").innerText = year
 
         const dateTime = date + " - " + time;
         document.getElementById("live-date-time").innerHTML = dateTime;
