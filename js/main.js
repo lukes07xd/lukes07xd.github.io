@@ -29,7 +29,6 @@ document.addEventListener('DOMContentLoaded', function() {
   var yy = y + 2018
 
   document.getElementById("years-of-coding").innerText = y + " years"
-  document.getElementById("currentyr").innerText = yy
 })
 
 function reloadbtn() {
