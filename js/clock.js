@@ -3,6 +3,8 @@ IT IS STRICTLY FORBIDDEN TO COPY THIS CODE AT ANY POINT OF TIME
 AUTHOR: Filip Lukeš 
 YOU CAN FIND MY CONTACT AT: https://lukes07xd.github.io
 */
+
+//By the way
 window.addEventListener("load", () => {
     clock();
     function clock() {
@@ -41,6 +43,6 @@ window.addEventListener("load", () => {
 
         const dateTime = date + " - " + time;
         document.getElementById("live-date-time").innerHTML = dateTime;
-        setTimeout(clock, 1000);
+        setTimeout(clock, 100);
     }
 });

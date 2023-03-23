@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function() {
   var today = new Date().getTime()
 
   var ms = today - years_since
-  var m = Math.floor(ms / 60000)
+  var m = Math.floor(ms / 60000)  
   var h = Math.floor(m / 60)
   var d = Math.floor(h / 24)
   var y = Math.floor(d / 365)
@@ -31,11 +31,20 @@ document.addEventListener('DOMContentLoaded', function() {
   document.getElementById("years-of-coding").innerText = y + " years"
 })
 
+function reloadbtntext() {
+  alert("Reloading started!")
+}
+
 function reloadbtn() {
   scroll(0,0)
+  reloadbtntext()
   location.reload(true)
 }
 
 function testjs() {
-  alert("JavaScript is working! The file this has tested is main.js")
+  alert("Javascript is working.. Now stop trying to steal my code and do something more productive instead.")
+}
+
+function btn() {
+  alert("You found the button that turns into a RGB one when you hover over it... Well it says it's disabled so why did you click it anyways?")
 }
